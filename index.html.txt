@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <!-- Wymusza dopasowanie szerokości do ekranu Nokii (240px) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Officium de Deo Patre</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: sans-serif;
+            font-size: 14px;
+            margin: 5px;
+            padding: 0;
+        }
+        h1 { font-size: 16px; text-align: center; color: #800000; margin: 5px 0; }
+        h2 { font-size: 14px; color: #000080; border-bottom: 1px solid #ccc; }
+        .menu { background: #eee; padding: 5px; text-align: center; margin-bottom: 10px; }
+        .menu a { display: block; padding: 4px; color: #000; text-decoration: none; border-bottom: 1px dotted #ccc; }
+        .rubryka { color: #800000; font-style: italic; }
+        .versiculum { margin-left: 5px; margin-bottom: 4px; }
+        .odstep { margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <h1>OFFICIUM DE DEO PATRE</h1>
+    
+    <!-- MENU NAWIGACYJNE DLA KLAWISZY NOKII -->
+    <div class="menu">
+        <b>Wybierz Godzinę:</b><br>
+        <a href="#maitines">1. Maitines (Jutrznia)</a>
+        <a href="#prima">2. Prima</a>
+        <a href="#tercia">3. Tercia</a>
+        <a href="#sexta">4. Sexta</a>
+        <a href="#nona">5. Nona</a>
+        <a href="#visperas">6. Vísperas (Nieszpory)</a>
+        <a href="#completas">7. Completas (Kompleta)</a>
+    </div>
+
+    <hr>
+
+    <!-- TREŚĆ MODLITWY (PRZYKŁAD: MAITINES) -->
+    <div id="maitines">
+        <h2>AD MATUTÍNUM (Maitines)</h2>
+        <p class="rubryka">† In nómine Patris, et Fílii, et Spíritus Sancti. Amen.</p>
+        <p>Te Deum Patrem laudámus, Te Conditórem cœli et terræ confitémur.</p>
+        
+        <p class="versiculum"><b>℣.</b> Dómine ✝, lábia mea apéries.<br>
+        <b>℟.</b> Et os meum annuntiábit laudem tuam.</p>
+        
+        <p class="versiculum"><b>℣.</b> Deus ✝ Pater, in adjutórium meum inténde.<br>
+        <b>℟.</b> Dómine, ad adjuvándum me festína.</p>
+        
+        <p class="versiculum"><b>℣.</b> Glória Patri, et Fílio, et Spirítui Sancto.<br>
+        <b>℟.</b> Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.</p>
+
+        <p class="rubryka">Hymnus:</p>
+        <p>Lucis Creátor óptime,<br>
+        Lucem diérum próferens,<br>
+        Primórdiis lucis novæ,<br>
+        Mundi parans oríginem...</p>
+        
+        <p><a href="#top">⬆ Powrót do góry</a></p>
+    </div>
+
+    <!-- Tutaj kolejne ID dla reszty godzin: id="prima", id="tercia" itd. -->
+
+</body>
+</html>
